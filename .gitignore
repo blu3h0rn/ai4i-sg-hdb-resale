@@ -1,0 +1,6 @@
+# Keep these files
+!data/
+!models
+!notebooks/
+!backup/
+!src/
