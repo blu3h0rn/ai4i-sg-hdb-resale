@@ -7,8 +7,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # specify location of pickled model and load it
-#file_loc_name = '/path/to/pkl/file'
-file_loc_name = '/Users/Ryzal/Documents/Github/ai4i-sg-hdb-resale/backup/sg_hdb_lm_v1.pkl'
+file_loc_name = '/path/to/pkl/file'
 sg_hdb_loaded_model = pickle.load(open(file_loc_name, 'rb'))
 
 # argument parsing

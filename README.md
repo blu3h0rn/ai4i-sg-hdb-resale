@@ -28,6 +28,22 @@ conda activate hdbresale
 jupyter notebook
 ```
 
+If the above set of commands fail, do the following instead (run each one at a time):
+```bash
+# Create environment
+conda create --name hdbresale19
+# Activate environment
+conda activate hdbresale19
+# Install relevant packages
+conda install pandas numpy
+conda install sqlalchemy
+conda install scikit-learn matplotlib
+conda install flask
+conda install -c conda-forge flask-restful
+# Open up Jupyter Notebook
+jupyter notebook
+```
+
 + For virtualenv
 ```bash
 cd 'path/to/ai4i-sg-hdb-resale'
