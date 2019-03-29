@@ -4,7 +4,7 @@ This repository contains resources for AI for Industry's Hands-on Machine Learni
 
 # Instructions/Guide
 
-## Ways to get these resources on your own local machine:
+## Ways to get these resources on your own local machine
 
 1. Simply click on the `Clone or download` button and `Download ZIP`
     + After downloading, simply extract contents to desired directory, possibly your desktop
