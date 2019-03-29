@@ -1,7 +1,7 @@
 # Keep these files
-!data/
+!data
 !models
-!notebooks/
-!backup/
-!src/
-.vscode/
+!notebooks
+!backup
+!src
+.vscode
