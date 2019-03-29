@@ -21,7 +21,7 @@ To set up an environment where the relevant packages can be installed so that yo
 + For conda (recommended for you to install Anaconda as this method is easier)
 ```bash
 cd 'path/to/ai4i-sg-hdb-resale'
-conda env create -f hdbresale.yml
+conda env create -f hdbresale19v2.yml
 # Now to activate environment
 conda activate hdbresale
 # After acvtivating environment, open up Jupyter Notebook
