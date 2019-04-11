@@ -2,67 +2,30 @@
 # Hands-on Machine Learning Workshop (SG HDB Resale)
 This repository contains resources for AI for Industry's Hands-on Machine Learning Workshop (SG HDB Resale)
 
+This repository contains instructions for you to get started on interacting with the resources, particularly the Jupyter Notebooks, for the purpose of this `Hands-on Machine Learning Workshop (SG HDB Resale)`.
+
 # Instructions/Guide
+Follow the following instructions prior to the workshop so that you can get started.
 
-## Ways to get these resources on your own local machine
+1. Make an account and log in to the [Azure Notebook](https://notebooks.azure.com/) using your Microsoft account.
+2. Navigate to `My Projects` through the selection bar at the top.
+3. Click on `Upload Github Repo`, and under the field `Git repo`, enter the following: `ryzalk/ai4i-sg-hdb-resale`
+4. Click `Import` and wait for a couple of minutes for the resources to be imported.
+5. Once it is done, you are all set! Feel free to navigate through each of the folders and files priort to the workshop.
 
-1. Simply click on the `Clone or download` button and `Download ZIP`
-    + After downloading, simply extract contents to desired directory, possibly your desktop
+**Instructional Video:**
+bit.ly/ai4idemov1
 
-2. Through `git`
+# Repository Structure/File Information
 ```
-cd 'path/to/desired/directory'
-git clone https://github.com/ryzalk/ai4i-sg-hdb-resale.git
-```
-
-## Setting up virtual/conda environment
-To set up an environment where the relevant packages can be installed so that you can employ whatever we will be used for today's workshop:
-
-+ For conda (recommended for you to install Anaconda as this method is easier)
-```bash
-cd 'path/to/ai4i-sg-hdb-resale'
-conda env create -f hdbresale19v2.yml
-# Now to activate environment
-conda activate hdbresale
-# After acvtivating environment, open up Jupyter Notebook
-jupyter notebook
-```
-
-If the above set of commands fail, do the following instead (run each one at a time):
-```bash
-# Create environment
-conda create --name hdbresale19
-# Activate environment
-conda activate hdbresale19
-# Install relevant packages
-conda install pandas numpy
-conda install sqlalchemy
-conda install scikit-learn matplotlib
-conda install flask
-conda install -c conda-forge flask-restful
-# Open up Jupyter Notebook
-jupyter notebook
-```
-
-+ For virtualenv
-```bash
-cd 'path/to/ai4i-sg-hdb-resale'
-virtualenv hdbresale
-
-# Now to activate environment
-# For Windows
-hdbresale\Scripts\activate
-# For Mac OS/Linux
-source hdbresale/bin/activate
-
-pip install pandas numpy
-pip install sqlalchemy
-pip install matplotlib
-pip install scikit-learn
-pip install flask
-pip install flasK_restful
-python3 -m pip install jupyter
-
-# After acvtivating environment, open up Jupyter Notebook
-jupyter notebook
+├── README.md          <- The file that presents you with this document that you're reading right now.
+├── reference          <- This folder contains resources that you can rely on should you get stuck at some point.
+├── data
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling will be exported to this place.
+│   └── raw            <- The original, immutable data dump. Data are obtainable through data.gov.sg
+│
+├── notebooks          <- Contains Jupyter Notebooks.
+│
+└── models             <- Trained and serialised models will be stored here.
 ```
