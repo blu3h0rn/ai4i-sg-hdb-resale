@@ -4,6 +4,9 @@ This repository contains resources for AI for Industry's Hands-on Machine Learni
 
 This repository contains instructions for you to get started on interacting with the resources, particularly the Jupyter Notebooks, for the purpose of this `Hands-on Machine Learning Workshop (SG HDB Resale)`.
 
+# Logistics
+Participants of this workshop are required to **bring their own laptops**. No local installation of softwares are required other than **web browsers**. We recommend either Chrome or Firefox for browsers. **WiFi connection will be provided**, however please ensure that your laptop can connect to public SSIDs. Staff laptops or laptops with SOEs have a likelihood of not being able to connect to our WiFi connection. It is recommended that you use your personal laptop.
+
 # Instructions/Guide
 Follow the following instructions prior to the workshop so that you can get started.
 
@@ -13,8 +16,11 @@ Follow the following instructions prior to the workshop so that you can get star
 4. Click `Import` and wait for a couple of minutes for the resources to be imported.
 5. Once it is done, you are all set! Feel free to navigate through each of the folders and files priort to the workshop.
 
+Optional:
++ To view created SQLite databases through a GUI during the session, you can download [SQLite Browser](https://sqlitebrowser.org/dl/) on your local machine.
+
 **Instructional Video:**
-bit.ly/ai4idemov1
+https://youtu.be/ABsQmSYqGvI
 
 # Repository Structure/File Information
 ```
