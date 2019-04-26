@@ -10,7 +10,7 @@ Participants of this workshop are required to **bring their own laptops**. No lo
 # Instructions/Guide
 Follow the following instructions prior to the workshop so that you can get started.
 
-1. Make an account and log in to the [Azure Notebook](https://notebooks.azure.com/) using your Microsoft account.
+1. Make an account and log in to [Azure Notebook](https://notebooks.azure.com/) using your Microsoft account. (Create one if you have yet to do so.)
 2. Navigate to `My Projects` through the selection bar at the top.
 3. Click on `Upload Github Repo`, and under the field `Git repo`, enter the following: `ryzalk/ai4i-sg-hdb-resale`
 4. Click `Import` and wait for a couple of minutes for the resources to be imported.
