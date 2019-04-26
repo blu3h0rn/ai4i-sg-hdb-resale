@@ -14,12 +14,12 @@ Follow the following instructions prior to the workshop so that you can get star
 2. Navigate to `My Projects` through the selection bar at the top.
 3. Click on `Upload Github Repo`, and under the field `Git repo`, enter the following: `ryzalk/ai4i-sg-hdb-resale`
 4. Click `Import` and wait for a couple of minutes for the resources to be imported.
-5. Once it is done, you are all set! Feel free to navigate through each of the folders and files priort to the workshop.
+5. Once it is done, you are all set! Feel free to navigate through each of the folders and files prior to the workshop.
 
 Optional:
 + To view created SQLite databases through a GUI during the session, you can download [SQLite Browser](https://sqlitebrowser.org/dl/) on your local machine.
 
-**Instructional Video:**
+**(Visual) Instructional Video:**
 https://youtu.be/ABsQmSYqGvI
 
 # Repository Structure/File Information
